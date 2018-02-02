@@ -5,7 +5,7 @@ class Bands extends Component {
 
     const bands = this.props.store.getState().bands.map((band,index) => {
       return <p 
-        band={band} key={index} id={band.id}  store={this.props.store}  />
+        band={band} key={index} id={band.id} store={this.props.store}  />
     })
     
     return(
